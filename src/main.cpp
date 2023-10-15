@@ -3,5 +3,6 @@
 using namespace std;
 
 int main(int, char**) {
-    std::cout << "Hello, world!\n";
+    cout << "Hello, world!" << endl;
+    cout << __cplusplus << endl;
 }
